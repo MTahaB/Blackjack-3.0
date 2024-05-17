@@ -1,8 +1,18 @@
-# React + Vite
+# Blackjack_grp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Groupe Blackjack Front
 
-Currently, two official plugins are available:
+# Execute in local :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    - npm install on both client and server directories
+    - npm start for server
+    - npm run dev for client
+
+# For docker :
+
+    - run : " docker build -t <img_name> . " ( for both client and serv)
+    - execute for server : docker run -d -p 5000:5000 <img_name_for_server>
+    - execute for client : docker run -d -p 5173:5173 <img_name_for_client>
+# Execute ganache :
+
+    - ganache-cli -p 7545
