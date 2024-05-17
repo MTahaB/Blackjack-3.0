@@ -1,6 +1,5 @@
 # Blackjack_grp
 
-Groupe Blackjack Front
 
 # Execute in local :
 
